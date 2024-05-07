@@ -17,6 +17,7 @@ class User < ApplicationRecord
     :uniqueness => { :case_sensitive => false },
   })
 
+
   # Association accessor methods to define:
   
   ## Direct associations
